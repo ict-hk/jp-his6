@@ -1,0 +1,78 @@
+[
+  {
+    "year": 200,
+    "era_name": "弥生時代",
+    "highlight_prefectures": ["Nara", "Saga"],
+    "events": [
+      {
+        "year_label": "239年頃",
+        "title": "卑弥呼と邪馬台国",
+        "description": "邪馬台国の女王・卑弥呼が中国（魏）に使いを送り、親魏倭王の称号や鏡を授かりました。",
+        "pref_names": ["奈良", "佐賀"]
+      }
+    ]
+  },
+  {
+    "year": 300,
+    "era_name": "古墳時代",
+    "highlight_prefectures": ["Osaka", "Nara"],
+    "events": [
+      {
+        "year_label": "4世紀頃〜",
+        "title": "前方後円墳と大和政権",
+        "description": "近畿地方を中心に大和政権が作られ、仁徳天皇陵古墳（大仙古墳）などの大きな古墳が作られました。",
+        "pref_names": ["大阪", "奈良"]
+      }
+    ]
+  },
+  {
+    "year": 600,
+    "era_name": "飛鳥時代",
+    "highlight_prefectures": ["Nara"],
+    "events": [
+      {
+        "year_label": "593年",
+        "title": "聖徳太子の政治",
+        "description": "推古天皇の摂政となり、冠位十二階や十七条の憲法を定め、法隆寺を建てました。",
+        "pref_names": ["奈良"]
+      },
+      {
+        "year_label": "607年",
+        "title": "遣隋使の派遣",
+        "description": "小野妹子らを中国（隋）に派遣し、大陸のすぐれた文化や政治制度を学びました。",
+        "pref_names": ["奈良"]
+      },
+      {
+        "year_label": "645年",
+        "title": "大化の改新",
+        "description": "中大兄皇子と中臣鎌足らが蘇我氏をたおし、天皇中心の国づくりを進めました。",
+        "pref_names": ["奈良"]
+      }
+    ]
+  },
+  {
+    "year": 700,
+    "era_name": "奈良時代",
+    "highlight_prefectures": ["Nara"],
+    "events": [
+      {
+        "year_label": "710年",
+        "title": "平城京への都の移転",
+        "description": "奈良に中国の都にならった碁盤の目状の大きな都（平城京）が作られました。",
+        "pref_names": ["奈良"]
+      },
+      {
+        "year_label": "752年",
+        "title": "東大寺の大仏建立",
+        "description": "聖武天皇が社会の不安や病気を仏教の力でおさめようと、東大寺に大きな大仏を造りました。",
+        "pref_names": ["奈良"]
+      },
+      {
+        "year_label": "8世紀半ば",
+        "title": "鑑真の来日と正倉院",
+        "description": "唐から度重なる苦難を乗り越えて鑑真が来日し、仏教の正しい教えを伝えました。",
+        "pref_names": ["奈良"]
+      }
+    ]
+  }
+]

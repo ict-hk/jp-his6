@@ -1,0 +1,72 @@
+[
+  {
+    "year": 1180,
+    "era_name": "鎌倉時代",
+    "highlight_prefectures": ["Kanagawa", "Yamaguchi"],
+    "events": [
+      {
+        "year_label": "1185年",
+        "title": "壇ノ浦の戦い（平氏の滅亡）",
+        "description": "源義経らが山口県の壇ノ浦で平氏をたおし、平氏一族は滅亡しました。",
+        "pref_names": ["山口"]
+      },
+      {
+        "year_label": "1192年",
+        "title": "鎌倉幕府の開設（源頼朝）",
+        "description": "源頼朝が征夷大将軍となり、鎌倉（神奈川県）に武士による初めての政治組織（幕府）を開きました。",
+        "pref_names": ["神奈川"]
+      }
+    ]
+  },
+  {
+    "year": 1220,
+    "era_name": "鎌倉時代",
+    "highlight_prefectures": ["Kanagawa", "Kyoto"],
+    "events": [
+      {
+        "year_label": "1221年",
+        "title": "承久の乱と六波羅探題",
+        "description": "後鳥羽上皇が幕府をたおそうと挙兵しましたが幕府軍が勝利。幕府は朝廷を監視する六波羅探題を京都に置きました。",
+        "pref_names": ["神奈川", "京都"]
+      },
+      {
+        "year_label": "1232年",
+        "title": "御成敗式目の制定（北条泰時）",
+        "description": "執権の北条泰時が、武士の裁判の基準となる法律（御成敗式目）を定めました。",
+        "pref_names": ["神奈川"]
+      }
+    ]
+  },
+  {
+    "year": 1270,
+    "era_name": "鎌倉時代",
+    "highlight_prefectures": ["Fukuoka", "Saga", "Nagasaki"],
+    "events": [
+      {
+        "year_label": "1274年・1281年",
+        "title": "元寇（文永の役・弘安の役）",
+        "description": "モンゴル帝国（元）の軍隊が九州北部に押し寄せましたが、北条時宗や御家人たちが防塁を築いて防ぎ切りました。",
+        "pref_names": ["福岡", "佐賀", "長崎"]
+      },
+      {
+        "year_label": "13世紀後半〜",
+        "title": "鎌倉新仏教と新しい文化",
+        "description": "民衆や武士にも分かりやすい新しい仏教（法然・親鸞・日蓮など）が広まり、『平家物語』などの軍記物語も語られました。",
+        "pref_names": ["神奈川", "京都"]
+      }
+    ]
+  },
+  {
+    "year": 1330,
+    "era_name": "鎌倉時代",
+    "highlight_prefectures": ["Kanagawa", "Kyoto"],
+    "events": [
+      {
+        "year_label": "1333年",
+        "title": "鎌倉幕府の滅亡",
+        "description": "元寇の恩賞不満などで幕府の求心力が低下。後醍醐天皇の呼びかけに応じた足利尊氏や新田義貞らによって幕府は滅びました。",
+        "pref_names": ["神奈川", "京都"]
+      }
+    ]
+  }
+]

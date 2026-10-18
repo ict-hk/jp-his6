@@ -1,0 +1,103 @@
+[
+  {
+    "year": 1390,
+    "era_name": "室町時代",
+    "highlight_prefectures": ["Kyoto"],
+    "events": [
+      {
+        "year_label": "1392年頃〜",
+        "title": "室町幕府と南北朝の統一（足利義満）",
+        "description": "足利義満が南北朝の対立を統一し、明（中国）との間で勘合貿易（日明貿易）を始めました。",
+        "pref_names": ["京都"]
+      },
+      {
+        "year_label": "1397年",
+        "title": "金閣（北山文化）の建立",
+        "description": "足利義満が京都の北山に金閣（鹿苑寺）を建てました。貴族と武士の文化が混ざり合った華やかな文化です。",
+        "pref_names": ["京都"]
+      }
+    ]
+  },
+  {
+    "year": 1450,
+    "era_name": "室町時代〜戦国時代",
+    "highlight_prefectures": ["Kyoto"],
+    "events": [
+      {
+        "year_label": "1467年",
+        "title": "応仁の乱（戦国時代の始まり）",
+        "description": "将軍の後継ぎ争いなどから京都で大きな戦いが起こり、約10年間続きました。これをきっかけに各地で下剋上の戦国時代が始まりました。",
+        "pref_names": ["京都"]
+      },
+      {
+        "year_label": "15世紀後半",
+        "title": "銀閣（東山文化）と水墨画",
+        "description": "足利義政が京都の東山に銀閣（慈照寺）を建てました。雪舟の水墨画や茶の湯、書院造など現在の日本文化の基線が作られました。",
+        "pref_names": ["京都"]
+      }
+    ]
+  },
+  {
+    "year": 1540,
+    "era_name": "戦国時代",
+    "highlight_prefectures": ["Kagoshima", "Nagasaki"],
+    "events": [
+      {
+        "year_label": "1543年",
+        "title": "鉄砲の伝来（種子島）",
+        "description": "ポルトガル人を乗せた船が鹿児島県の種子島に漂着し、日本に鉄砲が伝わりました。戦い方が大きく変わりました。",
+        "pref_names": ["鹿児島"]
+      },
+      {
+        "year_label": "1549年",
+        "title": "キリスト教の伝来（フランシスコ・ザビエル）",
+        "description": "スペイン人の宣教師ザビエルが鹿児島に到着し、日本に初めてキリスト教を伝えました。",
+        "pref_names": ["鹿児島"]
+      }
+    ]
+  },
+  {
+    "year": 1570,
+    "era_name": "安土桃山時代",
+    "highlight_prefectures": ["Aichi", "Shiga", "Kyoto"],
+    "events": [
+      {
+        "year_label": "1560年",
+        "title": "桶狭間の戦い（織田信長）",
+        "description": "織田信長が愛知県の桶狭間で今川義元を破り、天下統一に向けて歩み始めました。",
+        "pref_names": ["愛知"]
+      },
+      {
+        "year_label": "1575年",
+        "title": "長篠の戦いと安土城",
+        "description": "信長が鉄砲隊を組み合わせて武田の騎馬隊に勝利。滋賀県に豪華な安土城を建てて天下統一を目指しました。",
+        "pref_names": ["愛知", "滋賀"]
+      },
+      {
+        "year_label": "1582年",
+        "title": "本能寺の変",
+        "description": "家臣の明智光秀の謀反により、織田信長が京都の本能寺で倒れました。",
+        "pref_names": ["京都"]
+      }
+    ]
+  },
+  {
+    "year": 1590,
+    "era_name": "安土桃山時代",
+    "highlight_prefectures": ["Osaka", "Kanagawa"],
+    "events": [
+      {
+        "year_label": "1590年",
+        "title": "豊臣秀吉の天下統一",
+        "description": "秀吉が小田原（神奈川県）の北条氏をたおし、全国の戦国大名を従えてついに天下統一を果たしました。",
+        "pref_names": ["神奈川", "大阪"]
+      },
+      {
+        "year_label": "16世紀末",
+        "title": "太閤検地と刀狩り",
+        "description": "全国の田畑の広さや取れ高を調べ（太閤検地）、農民から武器を取り上げて（刀狩り）、兵農分離を進めました。",
+        "pref_names": ["大阪"]
+      }
+    ]
+  }
+]

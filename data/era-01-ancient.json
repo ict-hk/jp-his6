@@ -1,0 +1,53 @@
+[
+  {
+    "year": -10000,
+    "era_name": "縄文時代",
+    "highlight_prefectures": ["Aomori"],
+    "events": [
+      {
+        "year_label": "紀元前1万年頃〜",
+        "title": "縄文土器とたて穴住居の使用",
+        "description": "人々は狩りや採集を行い、縄目の模様がついた縄文土器や、たて穴住居を使って暮らし始めました。",
+        "pref_names": ["青森"]
+      },
+      {
+        "year_label": "紀元前3500年頃〜",
+        "title": "三内丸山遺跡（大型集落の形成）",
+        "description": "青森県などで大型の集落が作られ、栗の栽培や遠くの地域との貿易を行っていたことがわかっています。",
+        "pref_names": ["青森"]
+      }
+    ]
+  },
+  {
+    "year": -400,
+    "era_name": "弥生時代",
+    "highlight_prefectures": ["Fukuoka", "Saga"],
+    "events": [
+      {
+        "year_label": "紀元前400年頃〜",
+        "title": "米づくり（稲作）と金属器の伝来",
+        "description": "大陸から大陸から米づくり（稲作）の技術や、青銅器・鉄器が伝わり、人々の暮らしが大きく変わりました。",
+        "pref_names": ["福岡", "佐賀"]
+      },
+      {
+        "year_label": "紀元前300年頃〜",
+        "title": "吉野ヶ里遺跡（むらの出現と争い）",
+        "description": "米や土地をめぐる争いが始まり、周りにほりをめぐらせた大きな「むら（環濠集落）」が作られました。",
+        "pref_names": ["佐賀"]
+      }
+    ]
+  },
+  {
+    "year": 57,
+    "era_name": "弥生時代",
+    "highlight_prefectures": ["Fukuoka"],
+    "events": [
+      {
+        "year_label": "57年",
+        "title": "漢委奴国王の金印（ナコクの王）",
+        "description": "倭（日本）の奴国の王が中国（漢）に使いを送り、皇帝から金印（漢委奴国王）を授かりました。",
+        "pref_names": ["福岡"]
+      }
+    ]
+  }
+]

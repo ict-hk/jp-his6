@@ -1,0 +1,78 @@
+[
+  {
+    "year": 1750,
+    "era_name": "江戸時代後半",
+    "highlight_prefectures": ["Tokyo", "Fukui"],
+    "events": [
+      {
+        "year_label": "1716年〜",
+        "title": "享保の改革（徳川吉宗）",
+        "description": "8代将軍・吉宗が質素節約を命じ、目安箱の設置や新田開発を進めて幕府の財政を立て直そうとしました。",
+        "pref_names": ["東京"]
+      },
+      {
+        "year_label": "1774年",
+        "title": "『解体新書』の出版（杉田玄白・前野良沢）",
+        "description": "オランダ語の医学書を翻訳して『解体新書』を出版し、日本で蘭学（西洋の学問）が大きく発展しました。",
+        "pref_names": ["東京", "福井"]
+      }
+    ]
+  },
+  {
+    "year": 1800,
+    "era_name": "江戸時代後半",
+    "highlight_prefectures": ["Tokyo", "Mie", "Chiba"],
+    "events": [
+      {
+        "year_label": "1800年〜",
+        "title": "伊能忠敬の日本全国測量",
+        "description": "伊能忠敬が自分の足で全国を歩いて測量し、日本で初めての正確な日本地図（大日本沿海輿地全図）を作り上げました。",
+        "pref_names": ["千葉", "東京"]
+      },
+      {
+        "year_label": "18世紀後半〜19世紀初め",
+        "title": "国学の発展（本居宣長）と化政文化",
+        "description": "本居宣長が『古事記伝』を著して国学を大成。江戸を中心に葛飾北斎・歌川広重の浮世絵や小林一茶の俳句などの町人文化（化政文化）が栄えました。",
+        "pref_names": ["三重", "東京"]
+      }
+    ]
+  },
+  {
+    "year": 1850,
+    "era_name": "幕末",
+    "highlight_prefectures": ["Kanagawa", "Shizuoka", "Yamaguchi", "Kagoshima"],
+    "events": [
+      {
+        "year_label": "1853年",
+        "title": "ペリー来航（黒船）",
+        "description": "アメリカのペリー率いる黒船が浦賀（神奈川県）にやって来ました。翌年、日米和親条約を結んで開国しました。",
+        "pref_names": ["神奈川", "静岡"]
+      },
+      {
+        "year_label": "1858年",
+        "title": "日米修好通商条約と安政の大獄",
+        "description": "大老の井伊直弼が不平等な条約を結び、これに反対する吉田松陰らの志士を処罰（安政の大獄）しました。",
+        "pref_names": ["東京", "山口"]
+      }
+    ]
+  },
+  {
+    "year": 1865,
+    "era_name": "幕末",
+    "highlight_prefectures": ["Kyoto", "Kochi", "Kagoshima", "Yamaguchi"],
+    "events": [
+      {
+        "year_label": "1866年",
+        "title": "薩長同盟の結成（坂本龍馬）",
+        "description": "土佐（高知）の坂本龍馬らの仲立ちにより、対立していた薩摩藩（鹿児島）と長州藩（山口）が結びつきました。",
+        "pref_names": ["京都", "高知", "鹿児島", "Yamaguchi"]
+      },
+      {
+        "year_label": "1867年",
+        "title": "大政奉還（徳川慶喜）",
+        "description": "15代将軍・徳川慶喜が政治の権利を天皇に返し、約260年続いた江戸幕府が終わりを告げました。",
+        "pref_names": ["京都"]
+      }
+    ]
+  }
+]

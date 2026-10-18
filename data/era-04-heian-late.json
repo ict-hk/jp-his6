@@ -1,0 +1,66 @@
+[
+  {
+    "year": 1000,
+    "era_name": "平安時代後半",
+    "highlight_prefectures": ["Kyoto"],
+    "events": [
+      {
+        "year_label": "11世紀初め",
+        "title": "藤原氏の摂関政治と国風文学",
+        "description": "藤原道長・頼通が娘を天皇のきさきにして大きな権力を握りました。かな文字が使われ、紫式部の『源氏物語』や清少納言の『枕草子』が書かれました。",
+        "pref_names": ["京都"]
+      }
+    ]
+  },
+  {
+    "year": 1050,
+    "era_name": "平安時代後半",
+    "highlight_prefectures": ["Kyoto", "Iwate"],
+    "events": [
+      {
+        "year_label": "1053年",
+        "title": "平等院鳳凰堂の建立（浄土信仰）",
+        "description": "極楽浄土へ行けることを願う浄土信仰が広まり、藤原頼通が宇治（京都）に平等院鳳凰堂を建てました。",
+        "pref_names": ["京都"]
+      },
+      {
+        "year_label": "11世紀後半〜",
+        "title": "奥州藤原氏と中尊寺金色堂",
+        "description": "東北地方の平泉（岩手県）で奥州藤原氏が栄え、金の飾りが美しい中尊寺金色堂が建てられました。",
+        "pref_names": ["岩手"]
+      }
+    ]
+  },
+  {
+    "year": 1100,
+    "era_name": "平安時代後半",
+    "highlight_prefectures": ["Kyoto"],
+    "events": [
+      {
+        "year_label": "11世紀末〜",
+        "title": "院政の始まりと武士の台頭",
+        "description": "位をゆずった上皇が政治を行う「院政」が始まりました。都の警備や争いをめぐり、源氏や平氏といった武士が強い力を持つようになりました。",
+        "pref_names": ["京都"]
+      }
+    ]
+  },
+  {
+    "year": 1150,
+    "era_name": "平安時代後半",
+    "highlight_prefectures": ["Kyoto", "Hyogo", "Hiroshima"],
+    "events": [
+      {
+        "year_label": "1167年",
+        "title": "平清盛と平氏の政権",
+        "description": "平清盛が武士として初めて太政大臣になり、神戸（兵庫）の港を整えて宋（中国）との貿易（日宋貿易）を進めました。",
+        "pref_names": ["京都", "兵庫"]
+      },
+      {
+        "year_label": "12世紀後半",
+        "title": "厳島神社（平氏の氏神）",
+        "description": "平清盛は安芸の宮島（広島県）にある厳島神社を深く信仰し、立派な社殿を整えました。",
+        "pref_names": ["広島"]
+      }
+    ]
+  }
+]

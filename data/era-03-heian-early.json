@@ -1,0 +1,53 @@
+[
+  {
+    "year": 800,
+    "era_name": "平安時代前半",
+    "highlight_prefectures": ["Kyoto", "Iwate"],
+    "events": [
+      {
+        "year_label": "794年",
+        "title": "平安京への遷都",
+        "description": "桓武天皇が政治を立て直すため、都を京都（平安京）に移しました。「鳴くよ（794）ウグイス平安京」で知られています。",
+        "pref_names": ["京都"]
+      },
+      {
+        "year_label": "801年頃",
+        "title": "坂上田村麻呂の遠征",
+        "description": "征夷大将軍に任命された坂上田村麻呂が東北地方へ向き、東北の勢力（アテルイら）をおさめました。",
+        "pref_names": ["岩手"]
+      }
+    ]
+  },
+  {
+    "year": 850,
+    "era_name": "平安時代前半",
+    "highlight_prefectures": ["Kyoto", "Shiga", "Wakayama"],
+    "events": [
+      {
+        "year_label": "9世紀初め",
+        "title": "新しい仏教の広まり（最澄と空海）",
+        "description": "最澄が比叡山（滋賀/京都）に延暦寺を、空海が高野山（和歌山）に金剛峯寺を開き、密教を伝えました。",
+        "pref_names": ["京都", "滋賀", "和歌山"]
+      },
+      {
+        "year_label": "894年",
+        "title": "遣唐使の停止",
+        "description": "菅原道真の提案により、危険が大きく唐の衰退もあったことから、約200年続いた遣唐使が取りやめになりました。",
+        "pref_names": ["京都"]
+      }
+    ]
+  },
+  {
+    "year": 900,
+    "era_name": "平安時代前半",
+    "highlight_prefectures": ["Kyoto"],
+    "events": [
+      {
+        "year_label": "9世紀後半〜",
+        "title": "国風文化の発展",
+        "description": "遣唐使が廃止されたことで、日本の風土や生活に合った日本独自の「国風文化」が育ちました。",
+        "pref_names": ["京都"]
+      }
+    ]
+  }
+]

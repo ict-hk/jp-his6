@@ -109,12 +109,11 @@
     <div class="header-nav">
       <div class="year-display" id="year-text">----年</div>
       <div class="era-display" id="era-text">読み込み中...</div>
-      <div class="nav-buttons">
+            <div class="nav-buttons">
         <button class="nav-btn" id="btn-up">▲ 次へ</button>
         <button class="nav-btn" id="btn-down">▼ 前へ</button>
       </div>
     </div>
-
     <div class="map-container">
       <div class="map-title">日本全国地図（出来事の舞台が色付きます）</div>
       
@@ -205,8 +204,23 @@
 </div>
 
 <script>
-  let historyData = [];
-  let currentIndex = 0;
+  const eraFiles = [
+    'era-01-ancient.json',      // 0: 紀元前〜
+    'era-02-asuka-nara.json',   // 1: 飛鳥・奈良
+    'era-03-heian-early.json',  // 2: 平安前半
+    'era-04-heian-late.json',   // 3: 平安後半
+    'era-05-kamakura.json',     // 4: 鎌倉
+    'era-06-sengoku.json',      // 5: 戦国
+    'era-07-edo-early.json',    // 6: 江戸前半
+    'era-08-edo-late.json',     // 7: 江戸後半
+    'era-09-meiji-taisho.json', // 8: 明治・大正
+    'era-10-showa.json',        // 9: 昭和
+    'era-11-heisei-reiwa.json'  // 10: 平成・令和
+  ];
+
+  let currentEraIndex = 0;   // 現在の時代（配列の何番目か）
+  let historyData = [];      // 読み込んだ時代のJSONデータ
+  let currentIndex = 0;      // その時代の中での何コマ目か
 
   const yearText = document.getElementById('year-text');
   const eraText = document.getElementById('era-text');
@@ -214,12 +228,20 @@
   const btnUp = document.getElementById('btn-up');
   const btnDown = document.getElementById('btn-down');
 
-  // JSONデータの読み込み処理
-  async function loadHistoryData(fileName) {
+  // JSONデータの読み込み関数
+  async function loadHistoryData(eraIdx, startFromEnd = false) {
     try {
+      const fileName = eraFiles[eraIdx];
+      // ここで data/ とファイル名を合体させます
       const response = await fetch(`./data/${fileName}`);
+    
+      if (!response.ok) throw new Error('Network error');
+    
       historyData = await response.json();
-      currentIndex = 0;
+      currentEraIndex = eraIdx;
+
+      currentIndex = startFromEnd ? historyData.length - 1 : 0;
+    
       updateScreen();
     } catch (error) {
       console.error("データの読み込みエラー:", error);
@@ -234,13 +256,12 @@
     yearText.textContent = `${currentData.year}年`;
     eraText.textContent = currentData.era_name;
 
-    btnDown.disabled = (currentIndex === 0);
-    btnUp.disabled = (currentIndex === historyData.length - 1);
+    // ボタンの無効化判定（最初の時代の先頭コマなら「前へ」OFF、最後の時代の最終コマなら「次へ」OFF）
+    btnDown.disabled = (currentEraIndex === 0 && currentIndex === 0);
+    btnUp.disabled = (currentEraIndex === eraFiles.length - 1 && currentIndex === historyData.length - 1);
 
-    // 全ての都道府県のハイライトをリセット
+    // 都道府県ハイライトのリセットと付与
     document.querySelectorAll('.pref').forEach(el => el.classList.remove('highlight'));
-
-    // 該当する都道府県にハイライトを付与
     if (currentData.highlight_prefectures) {
       currentData.highlight_prefectures.forEach(id => {
         const targetPref = document.getElementById(id);
@@ -267,22 +288,32 @@
     });
   }
 
+  // 「▲ 次へ」ボタン押下時
   btnUp.addEventListener('click', () => {
     if (currentIndex < historyData.length - 1) {
+      // 同じ時代の中で1コマ進む
       currentIndex++;
       updateScreen();
+    } else if (currentEraIndex < eraFiles.length - 1) {
+      // 次の時代へ突入（次のJSONを読み込み、先頭コマから表示）
+      loadHistoryData(currentEraIndex + 1, false);
     }
   });
 
+  // 「▼ 前へ」ボタン押下時
   btnDown.addEventListener('click', () => {
     if (currentIndex > 0) {
+      // 同じ時代の中で1コマ戻る
       currentIndex--;
       updateScreen();
+    } else if (currentEraIndex > 0) {
+      // 前の時代へ戻る（前のJSONを読み込み、末尾コマから表示）
+      loadHistoryData(currentEraIndex - 1, true);
     }
   });
 
-  // 戦国時代のJSONデータを読み込んで開始
-  loadHistoryData('era-06-sengoku.json');
+  // 初期読み込み（一番最初の「紀元前〜」からスタート）
+  loadHistoryData(0);
 </script>
 
 </body>
